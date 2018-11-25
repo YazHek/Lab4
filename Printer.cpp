@@ -23,7 +23,7 @@ int printer::getType(){
     return type;
 }
 
-int printer::getDruk(){
+int printer::getDrukType(){
     
-    return druk;
+    return drukType;
 }
