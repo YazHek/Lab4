@@ -26,7 +26,7 @@ private:
     
 protected:
     int type;
-    int druk;
+    int drukType;
     
     
 
@@ -44,13 +44,13 @@ public:
         
     }
     
-    printer (string Name, int Speed, int Price, int Type, int Druk){
+    printer (string Name, int Speed, int Price, int Type, int DrukType){
         
         name = Name;
         speed = Speed;
         price = Price;
         type = Type;
-        druk = Druk;
+        drukType = DrukType;
     }
     
     ~printer() {
@@ -62,7 +62,7 @@ public:
     int getSpeed();
     int getPrice();
     int getType();
-    int getDruk();
+    int getDrukType();
     
 };
 

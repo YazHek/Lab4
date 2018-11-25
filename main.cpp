@@ -26,7 +26,7 @@ int main(void) {
     << NewPrinter1->getSpeed() << endl
     << NewPrinter1->getPrice() << endl
     << NewPrinter1->getType() << endl
-    << NewPrinter1->getDruk() << endl
+    << NewPrinter1->getDrukType() << endl
     << NewPrinter1->Color << endl
     << NewPrinter1->Weight << endl;
     
@@ -39,7 +39,7 @@ int main(void) {
     << NewPrinter2->getSpeed() << endl
     << NewPrinter2->getPrice() << endl
     << NewPrinter2->getType() << endl
-    << NewPrinter2->getDruk() << endl
+    << NewPrinter2->getDrukType() << endl
     << NewPrinter2->Color << endl
     << NewPrinter2->Weight << endl;
     
@@ -51,7 +51,7 @@ int main(void) {
     << NewPrinter3->getSpeed() << endl
     << NewPrinter3->getPrice() << endl
     << NewPrinter3->getType() << endl
-    << NewPrinter3->getDruk() << endl
+    << NewPrinter3->getDrukType() << endl
     << NewPrinter3->Color << endl
     << NewPrinter3->Weight << endl;
     
